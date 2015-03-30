@@ -1,0 +1,51 @@
+﻿body {background-color:#000000;}
+/*****************************************************COLUMNS*********************************************************/
+.Master {position:relative; width:100%; height:100%; overflow:hidden;}
+
+.Left {position:relative; width:25%; overflow:hidden; background-color:Green;}
+
+/*************************************************CONTAINER***********************************************************/
+.BottomContainer {clear:both; position:absolute; z-index:50;}
+
+.IndexMid {position:relative; margin-left:auto; margin-right:auto; height:300px; width:933px; z-index:99; display:block;}
+.linksBoxBtmHome {position:relative; padding-top:60px; margin-left:55px; margin-right:auto; height:300px; width:1400px; z-index:99; display:block;}
+.linksBoxBtmDetails {position:absolute; margin-left:15px; margin-top:380px; margin-right:auto; width:auto; z-index:50;}
+.linksBoxBtmDetailsContact {position:absolute; margin-top:400px; margin-right:auto; width:auto; z-index:50;}
+.linksBoxBtmDetailsPolicies {position:absolute; margin-top:400px; margin-right:auto; width:auto; z-index:50;}
+.linksBoxBtmDetailsPayments {position:absolute; margin-top:400px; margin-right:auto; width:auto; z-index:50;}
+.TextMid {position:absolute; height:300px; margin-left:-55px; width:730px; z-index:99999; overflow:auto;}
+.TextMid2 {position:absolute; margin-left:134px; height:382px; width:730px; z-index:99999; overflow:auto;}
+.TextMid3 {position:absolute; margin-left:136px; height:382px; width:727px; z-index:99999; overflow:auto;}
+
+.Adjustment {margin-left:20px;}
+
+.iFrame {border:0; background-color:transparent; padding-top:20px;}
+/*******************************************************IMAGES********************************************************/
+.BackGroundImage {position:static; margin-left:auto; margin-right:auto; z-index:100; height:739px; width:1000px; display:block;}
+
+.HomeLinks {border:0;}
+.AboutLinks {border:0; height:150px;}
+.RightBigLink {position:static; border:0; margin-left:753px; z-index:1; margin-top:-260px}
+.RightBigLinkContactUs {border:0; margin-left:855px; z-index:50; margin-top:-260px}
+.RightBigLinkPolicies {border:0; margin-left:780px; z-index:50; margin-top:-220px}
+.RightBigLinkTestimonials {border:0; margin-left:710px; z-index:50; margin-top:-170px}
+.RightBigLinkPayments {border:0; margin-left:620px; z-index:50; margin-top:-180px}
+
+.ownerImg {padding-right:5px;padding-bottom:5px;float:left; height:160px;}
+
+/*******************************************************TEXT********************************************************/
+.AboutInfo {font-family:'BLACKBOY'; font-size:18pt; font-weight:bold;}
+h1 {font-size: 24pt; text-decoration:underline;}
+.thankYou{font-size:24pt; color:Red;}
+.address div { margin-left: 1em; text-indent: -1em; }
+.disabled { background-color:Gray; color:Gray; }
+
+.header {font-size: 24pt;}
+.schoolName {font-size:18pt; font-weight:bold;}
+
+/*******************************************************FONTS********************************************************/
+@font-face {
+	font-family: 'BLACKBOY';
+	src: url('Fonts/BLACKBOY.TTF');
+	src: local('Blackboysonmopeds'), local('BLACKBOY'), url('Fonts/BLACKBOY.TTF') format('truetype');
+}
